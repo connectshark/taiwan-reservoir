@@ -1,8 +1,8 @@
 <template>
 <div class="item">
   <Wave :percent="percent"/>
-  <h4 class="title">{{name}}</h4>
-  <p class="time">{{time}}</p>
+  <h4 class="title"><i class='bx bx-water'></i>{{name}}</h4>
+  <p class="time"><i class='bx bx-time'></i>{{time}}</p>
 </div>
 </template>
 
