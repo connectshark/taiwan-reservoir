@@ -40,14 +40,20 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/scss/media.scss';
 .list-group{
+  padding: 20px 0 0;
   display: grid;
   margin: auto;
-  width: 500px;
-  grid-template-columns: repeat(2, 250px);
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  width: 1000px;
   grid-template-rows: auto;
+  @include desktops {
+    grid-template-columns: repeat(2, 1fr);
+    width: 500px;
+  }
   @include mobile {
     grid-template-columns: 1fr;
-    width: 90%;
+    width: 250px;
   }
 }
 </style>

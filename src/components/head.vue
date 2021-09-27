@@ -3,13 +3,13 @@
   <h1 class="title">
     <router-link to="/" class="link">{{title}}</router-link>
   </h1>
-  <nav>
+  <!-- <nav>
     <ul class="link-group">
       <li v-for="link in nav" :key="link.path" class="link-item">
         <router-link :to="link.path" class="link">{{link.name}}</router-link>
       </li>
     </ul>
-  </nav>
+  </nav> -->
 </header>
 </template>
 

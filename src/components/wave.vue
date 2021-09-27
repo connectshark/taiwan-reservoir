@@ -30,7 +30,7 @@ $wave: 500px;
   width: 200px;
   height: 200px;
   margin: auto;
-  border-radius: 20px;
+  border-radius: 60px;
   overflow: hidden;
   .wave {
     position: absolute;

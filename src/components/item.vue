@@ -1,8 +1,8 @@
 <template>
 <div class="item">
-  <h4>{{name}}</h4>
   <Wave :percent="percent"/>
-  <p>{{time}}</p>
+  <h4 class="title">{{name}}</h4>
+  <p class="time">{{time}}</p>
 </div>
 </template>
 
@@ -33,4 +33,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.item{
+  border-radius: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  color: #333;
+  text-align: center;
+  background-color: #EFF6FF;
+  .title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  .time{
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}
 </style>
