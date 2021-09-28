@@ -44,7 +44,7 @@ export default {
   display: grid;
   margin: auto;
   gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   width: 1000px;
   grid-template-rows: auto;
   @include desktops {
